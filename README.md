@@ -12,17 +12,20 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 Using my knowledge of the imbalanced-learn and scikit-learn libraries, I evaluated three machine learning models by using resampling to determine which is better at predicting credit risk. First, I used the oversampling RandomOverSampler and SMOTE algorithms, and then I used the undersampling ClusterCentroids algorithm. Using these algorithms, I resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
 
 * Naive Random Oversampling
+
   The balanced accuracy test it 65%, the precision for the high_risk has a very low positivity at 1% and the recall is 62%.
   
   <img width="718" alt="Naive Ramdom Oversampling" src="https://user-images.githubusercontent.com/106033535/195216973-3d551362-edad-4da7-b5aa-41ba89b655cd.png">
 
 
 * SMOTE Oversampling
+
   The accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall.
   
   <img width="716" alt="SMOTE Oversampling" src="https://user-images.githubusercontent.com/106033535/195217437-3b392f48-033e-418e-8553-638faf95d30c.png">
 
 * Undersampling
+
   Balanced accuracy score is 54% overall, the precision is at 99% and the recall is 40%.
   
   
@@ -31,9 +34,10 @@ Using my knowledge of the imbalanced-learn and scikit-learn libraries, I evaluat
 
 
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
-Using my knowledge of the imbalanced-learn and scikit-learn libraries, I used a combinatorial approach of over- and undersampling with the SMOTEENN algorithm to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms from Deliverable 1. Using the SMOTEENN algorithm, I resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
+Using my knowledge of the imbalanced-learn and scikit-learn libraries, I used a combinatorial approach of over- and undersampling with the SMOTEENN algorithm to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms from Deliverable  Using the SMOTEENN algorithm, I resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
 
 * Combination (Over and Under) Sampling
+
   Balanced accuracy score is 64% the precision is 99% and the recall is 57% overall.
   
   
@@ -44,12 +48,14 @@ Using my knowledge of the imbalanced-learn and scikit-learn libraries, I used a 
 Using my knowledge of the imblearn.ensemble library, I trained and compared two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model. Using both algorithms, I resampled the dataset, viewed the count of the target classes, trained the ensemble classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
 
 * Balanced Random Forest Classifier
+
   The accuracy score is 74.2% the precision is 99% and the recall is 85%.
   
   
   <img width="722" alt="Balanced Random Forest Classifier" src="https://user-images.githubusercontent.com/106033535/195218340-12f049de-0a67-4bb9-a38b-a40f88b76810.png">
   
  * Easy Ensemble AdaBoost Classifier
+ 
   The accuracy score is 93% the precision is 99% and the recall is 94%.
   
   
